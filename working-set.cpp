@@ -12,7 +12,7 @@ void flush()
 	for(int i = 0; i < PHYSICAL_NUM; i++)
 	{
 		if(exist[i]){
-			if(access_time[i] + 3 < time){
+			if(access_time[i] + WINDOW <= time){
 				exist[i] = 0;
 			}
 		}
