@@ -1,7 +1,7 @@
 
 初始化
 cons_init-->kbd_init-->kbd_intr
-相应中断
+响应中断
 
 中断处理
 trap_dispatch()
